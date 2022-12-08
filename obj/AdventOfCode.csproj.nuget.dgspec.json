@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maart\\Desktop\\AdventOfCode\\AdventOfCode.csproj": {}
+    "D:\\Coding_projects\\AdventOfCode2022\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maart\\Desktop\\AdventOfCode\\AdventOfCode.csproj": {
+    "D:\\Coding_projects\\AdventOfCode2022\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maart\\Desktop\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "D:\\Coding_projects\\AdventOfCode2022\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\Maart\\Desktop\\AdventOfCode\\AdventOfCode.csproj",
+        "projectPath": "D:\\Coding_projects\\AdventOfCode2022\\AdventOfCode.csproj",
         "packagesPath": "C:\\Users\\Maart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maart\\Desktop\\AdventOfCode\\obj\\",
+        "outputPath": "D:\\Coding_projects\\AdventOfCode2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maart\\AppData\\Roaming\\NuGet\\NuGet.Config",
