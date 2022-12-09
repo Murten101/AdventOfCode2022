@@ -9,13 +9,13 @@ namespace AdventOfCode.Solutions
         {
             int offset = 0, i = 0;
             var sr = new StreamReader("Input/Day6.txt");
-            char[] chars = new char[4];
+            char[] buffer = new char[4];
             while (sr.Peek() != -1)
             {
-                chars[offset] = (char)sr.Read();
+                buffer[offset] = (char)sr.Read();
                 offset = (offset + 1) % 4;
                 i++;
-                if (chars.Distinct().Count() == 4 && i >= 4)
+                if (buffer.Distinct().Count() == 4 && i >= 4)
                 {
                     return i.ToString();
                 }
