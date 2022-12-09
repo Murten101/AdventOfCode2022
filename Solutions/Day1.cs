@@ -1,4 +1,5 @@
 ﻿using AdventOfCode.Base;
+using System;
 
 namespace AdventOfCode.Solutions
 {
@@ -7,12 +8,12 @@ namespace AdventOfCode.Solutions
     {
         string ISolution.Part1()
         {
-            throw new NotImplementedException();
+            return File.ReadAllText("Input/Day1.txt").Split("\r\n\r\n").OrderBy((s) => s.Split("\r\n").Sum((num) => -int.Parse(num))).ToList()[0].Split("\r\n").Sum((num) => int.Parse(num)).ToString();
         }
 
         string ISolution.Part2()
         {
-            throw new NotImplementedException();
+            return File.ReadAllText("Input/Day1.txt").Split("\r\n\r\n").OrderBy((s) => s.Split("\r\n").Sum((num) => -int.Parse(num))).ToList().Take(3).Sum((s) => s.Split("\r\n").Sum((num) => int.Parse(num))).ToString();
         }
     }
 }
