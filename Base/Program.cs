@@ -31,7 +31,7 @@ while (true)
     switch (input?[0])
     {
         case 'r':
-            RunSolution(input);
+            RunSolution(input.Split(' ').Last());
             break;
         case 'h':
             Console.WriteLine("Run solution: R <day>-<problem> (example: \"R 2-2\")");
@@ -44,7 +44,7 @@ while (true)
 
 void RunSolution(string input)
 {
-    if (int.TryParse(input[2].ToString(), out int day) && int.TryParse(input[4].ToString(), out int problem))
+    if (int.TryParse(input.Split('-').First(), out int day) && int.TryParse(input.Split('-').Last(), out int problem))
     {
         if (day < 0 || day > solutions.Count)
         {
@@ -58,7 +58,6 @@ void RunSolution(string input)
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(solutions[day].Part1());
-
             Console.ForegroundColor = ConsoleColor.White;
             return;
         }
@@ -67,7 +66,6 @@ void RunSolution(string input)
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(solutions[day].Part2());
-
             Console.ForegroundColor = ConsoleColor.White;
             return;
         }

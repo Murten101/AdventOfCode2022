@@ -44,3 +44,4 @@ D:\Coding_projects\AdventOfCode2022\obj\Debug\net6.0\AdventOfCode.pdb
 D:\Coding_projects\AdventOfCode2022\obj\Debug\net6.0\AdventOfCode.genruntimeconfig.cache
 D:\Coding_projects\AdventOfCode2022\obj\Debug\net6.0\ref\AdventOfCode.dll
 D:\Coding_projects\AdventOfCode2022\bin\Debug\net6.0\Input\Day9.txt
+D:\Coding_projects\AdventOfCode2022\bin\Debug\net6.0\Input\Day10.txt
